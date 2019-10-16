@@ -1,0 +1,16 @@
+ul,ol{
+    list-style: none;
+    padding: 0;
+}
+.archive h2{
+    font-weight: 500;
+    font-size: 18px;
+}
+.archive li{
+    font-size: 14px;
+    line-height: 28px;
+}
+.archive li a{
+    color: #000;
+    text-decoration: none;
+}

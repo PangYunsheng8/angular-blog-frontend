@@ -1,0 +1,12 @@
+<nav>
+    <h1>码蜂社博客</h1>
+    <ul class="links">
+        <li *ngIf="this.isSignin">欢迎你!{{user.username}}</li>
+        <li><a routerLink="">主页</a></li>
+        <li><a routerLink="about">关于</a></li>
+        <li *ngIf="!this.isSignin"><button (click)="this.clickSignin()">登录</button></li>
+        <li *ngIf="!this.isSignin"><button (click)="this.clickSignup()">注册</button></li>
+        <li *ngIf="this.isSignin"><a routerLink="signout" (click)="this.signOut()">注销</a></li>
+        <li *ngIf="this.isSignin"><a routerLink="admin">管理</a></li>
+    </ul>
+</nav>

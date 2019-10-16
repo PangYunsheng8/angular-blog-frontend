@@ -1,0 +1,13 @@
+<div class="article-item">
+    <h3>{{article.title}}</h3>
+    <div class="desc">
+        <span class="tag">{{article.tags | computeTags}}</span>
+        <span class="circle"></span>
+        <span class="date">{{article.createdAt | dateTime}}</span>
+        <span class="circle"></span>
+        <span class="click-times">浏览 {{article.clickTimes}}</span>
+    </div>
+    <div class="content" *ngIf="showDetail">{{article.content}}</div>
+    <div class="content" *ngIf="!showDetail">{{article.content | clip}}</div>
+    <div class="view-article" *ngIf="!showDetail"><a routerLink="/article/{{article.id}}">查看文章</a></div>
+</div>

@@ -1,0 +1,12 @@
+<div class="home" infiniteScroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="50" (scrolled)="loadArticles()">
+    <div class="contents">
+        <div *ngFor="let article of this.articles" class="article-item">
+            <app-article-item [article]="article" [showDetail]="this.showDetail"></app-article-item>
+        </div>
+    </div>
+    <div class="aside">
+        <app-latest-article [latestArticles]="this.latestArticles"></app-latest-article>
+        <app-archive [archives]="this.archives"></app-archive>
+        <app-tag [tags]="this.tags"></app-tag>
+    </div>
+</div>

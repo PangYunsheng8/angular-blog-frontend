@@ -1,0 +1,17 @@
+.contents{
+    width: 70%;
+    margin: 40px 100px;
+    border-right: 1px solid #ccc;
+}
+.aside{
+    width: 20%;
+    margin: 40px 40px;
+}
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.article-item{
+    margin: 20px 0 60px 0;
+}

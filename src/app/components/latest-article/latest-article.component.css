@@ -1,0 +1,16 @@
+ul{
+    list-style: none;
+    padding: 0;
+}
+.latest-article h2{
+    font-weight: 500;
+    font-size: 18px;
+}
+.latest-article li{
+    font-size: 14px;
+    line-height: 28px;
+}
+.latest-article li a{
+    color: #000;
+    text-decoration: none;
+}

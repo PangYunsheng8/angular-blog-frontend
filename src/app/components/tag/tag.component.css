@@ -1,0 +1,18 @@
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    display-warp: warp;
+}
+.tag h2{
+    font-weight: 500;
+    font-size: 18px;
+}
+.tag li{
+    font-size: 14px;
+    border: 1px solid green;
+    margin: 3px;
+}
+.tag li a{
+    color: #000;
+}

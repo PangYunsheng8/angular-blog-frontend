@@ -1,0 +1,19 @@
+table{
+    width: 100%;
+}
+.article-mangement{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.paginator{
+    width: 100%;
+}
+.addBtn{
+    width: 20%;
+    height: 50%;
+}

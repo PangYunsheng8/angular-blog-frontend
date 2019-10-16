@@ -1,0 +1,8 @@
+<div class="latest-article">
+    <h2>近期文章</h2>
+    <ul>
+        <li *ngFor="let la of this.latestArticles">
+        <a routerLink="/article/{{la.id}}">{{la.title}}</a>
+        </li>
+    </ul>
+</div>

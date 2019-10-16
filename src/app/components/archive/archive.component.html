@@ -1,0 +1,8 @@
+<div class="archive">
+    <h2>文章归档</h2>
+    <ul>
+        <li *ngFor="let archive of this.archives">
+        <a routerLink="/archive/{{archive.year}}/{{archive.month}}">{{archive.year}}年{{archive.month}}月&nbsp;&nbsp;&nbsp;({{archive.count}})</a>
+        </li>
+    </ul>
+</div>
